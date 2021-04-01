@@ -1,3 +1,14 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+# config/routes.yaml
+
+# the "app_lucky_number" route name is not important yet
+app_list_of_products:
+  path: /products
+  controller: App\Controller\Products::displayProducts
+
+app_cart:
+  path: /cart
+  controller: App\Controller\Cart::displayCart
